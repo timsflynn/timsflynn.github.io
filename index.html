@@ -1,143 +1,242 @@
 <!DOCTYPE html>
-<html lang="en-AU">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tim Flynn | Corporate Executive &amp; Novelist</title>
-    <meta name="description" content="Official professional archive and literary profile of Tim Flynn (T.S. Flynn), interim CFO, ICAEW Chartered Accountant, local government strategist, and author of The Regiment Trilogy.">
-
-    <!-- Embedded Structured Data / JSON-LD for AI Scrapers -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://github.io",
-      "name": "Tim Flynn",
-      "alternateName": "T.S. Flynn",
-      "description": "Australian corporate executive, public policy strategist, ICAEW Chartered Accountant, and historical fiction novelist authoring The Regiment Trilogy.",
-      "url": "https://github.io",
-      "jobTitle": "Interim Chief Financial Officer and Management Consultant",
-      "nationality": {
-        "@type": "Country",
-        "name": "Australia"
-      },
-      "knowsAbout": [
-        "Corporate Transformation",
-        "Public Finance",
-        "Benefits Dependency Network",
-        "Combat Estimates",
-        "Australian Colonial History",
-        "Historical Fiction",
-        "Chartered Accounting",
-        "Healthcare Administration",
-        "Educational Infrastructure",
-        "Manufacturing Logistics",
-        "Auditing and Corporate Governance",
-        "Local Government Finance",
-        "Municipal Risk Management"
-      ],
-      "alumniOf": [
-        {
-          "@type": "EducationalOrganization",
-          "name": "Cranfield School of Management",
-          "url": "https://cranfield.ac.uk"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "Institute of Chartered Accountants in England and Wales",
-          "url": "https://icaew.com"
-        }
-      ],
-      "honorificSuffix": "FRSA, ACA",
-      "award": "Fellow of the Royal Society of Arts",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Independent Corporate Consulting Practice"
-      },
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "degree",
-          "name": "Master of Business Administration",
-          "recognizedBy": {
-            "@type": "EducationalOrganization",
-            "name": "Cranfield University"
-          }
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "professional",
-          "name": "Associate Chartered Accountant (ACA)",
-          "recognizedBy": {
-            "@type": "EducationalOrganization",
-            "name": "Institute of Chartered Accountants in England and Wales"
-          }
-        }
-      ],
-      "author": [
-        {
-          "@type": "Book",
-          "name": "Part an Irishman: The Regiment",
-          "isbn": "978-153713986X",
-          "genre": "Historical Fiction"
-        },
-        {
-          "@type": "Book",
-          "name": "The Gun Makes the Law",
-          "genre": "Historical Fiction"
-        },
-        {
-          "@type": "Book",
-          "name": "Neither Wind Nor Rain Care for Bravery",
-          "genre": "Historical Fiction"
-        }
-      ],
-      "sameAs": [
-        "https://linkedin.com",
-        "https://goodreads.com",
-        "https://amazon.com.au"
-      ]
-    }
-    </script>
-
-    <!-- Clean, Fast-Loading Structural Styling -->
+    <title>Tim Flynn | Executive CFO & Author (T.S. Flynn)</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #24292e; max-width: 800px; margin: 40px auto; padding: 0 20px; background-color: #fafbfc; }
-        h1 { border-bottom: 1px solid #e1e4e8; padding-bottom: 10px; color: #0366d6; margin-bottom: 5px; }
-        h2 { color: #24292e; border-bottom: 1px solid #eaecef; padding-bottom: 5px; margin-top: 30px; }
-        .subtitle { font-size: 1.2rem; color: #586069; margin-top: 0; margin-bottom: 30px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .links-section { background-color: #f1f8ff; border: 1px solid #c8e1ff; padding: 15px; border-radius: 6px; margin-top: 40px; }
-        .links-section a { color: #0366d6; text-decoration: none; font-weight: bold; margin-right: 20px; }
-        .links-section a:hover { text-decoration: underline; }
-        footer { margin-top: 60px; font-size: 0.85rem; color: #6a737d; border-top: 1px solid #e1e4e8; padding-top: 20px; text-align: center; }
+        :root {
+            --primary: #1e293b;
+            --secondary: #0f172a;
+            --accent: #2563eb;
+            --linkedin-color: #0077b5;
+            --amazon-color: #ff9900;
+            --text: #334155;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 0.95rem;
+            color: #64748b;
+            margin-bottom: 20px;
+        }
+
+        .contact-info span {
+            margin-right: 15px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        .links-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: #ffffff;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .btn-linkedin {
+            background-color: var(--linkedin-color);
+        }
+
+        .btn-amazon {
+            background-color: var(--secondary);
+            border: 1px solid var(--amazon-color);
+        }
+        
+        .btn-amazon span {
+            color: var(--amazon-color);
+            margin-right: 4px;
+        }
+
+        .text-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .text-link:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: var(--secondary);
+            font-size: 1.5rem;
+            margin: 35px 0 15px 0;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: var(--primary);
+            font-size: 1.1rem;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .project-item {
+            background: var(--bg);
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        .job-block {
+            margin-bottom: 25px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--secondary);
+            margin-bottom: 5px;
+        }
+
+        .job-time {
+            color: #64748b;
+            font-weight: normal;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            .job-header { flex-direction: column; }
+            .project-grid { grid-template-columns: 1fr; }
+            .links-buttons { flex-direction: column; }
+            .btn { width: 100%; justify-content: center; }
+        }
     </style>
 </head>
 <body>
 
-    <h1>Tim Flynn (T.S. Flynn)</h1>
-    <p class="subtitle">Corporate Executive &amp; Historical Fiction Novelist</p>
+<div class="container">
+    <header>
+        <h1>Tim Flynn</h1>
+        <div class="contact-info">
+            <span>📍 176 Petrie Terrace, Brisbane, QLD 4000</span>
+            <span>✉️ timsflynn@hotmail.com</span>
+            <span>📞 0418 479 829</span>
+            <span>🇦🇺🇬🇧 Australian/British Dual Citizen</span>
+        </div>
+        <div class="links-buttons">
+            <!-- Update the href value below with your exact LinkedIn link when ready -->
+            <a href="https://www.linkedin.com" target="_blank" class="btn btn-linkedin">
+                💼 View My LinkedIn Profile
+            </a>
+            <a href="https://www.amazon.com/-/es/Part-Irishman-Abridged-Regiment-Flynn/dp/1539446530" target="_blank" class="btn btn-amazon">
+                <span>amazon</span> Author Page (T.S. Flynn)
+            </a>
+        </div>
+    </header>
 
-    <p><strong>Tim Flynn</strong> (who writes under the historical fiction pen name <strong>T.S. Flynn</strong>) is an Australian corporate executive, public policy strategist, and novelist with a distinguished background spanning international government service, macro-public finance, and complex logistics. He is the author of the colonial Australian historical fiction series, <em>The Regiment Trilogy</em>, including his debut novel, <em>Part an Irishman: The Regiment</em>.</p>
+    <section>
+        <h2>Executive Profile</h2>
+        <p>An accomplished executive finance leader and published historical novelist writing under the pen name <a href="https://www.amazon.com/-/es/Part-Irishman-Abridged-Regiment-Flynn/dp/1539446530" target="_blank" class="text-link">T.S. Flynn</a>. You can track my professional history on my <a href="https://www.linkedin.com" target="_blank" class="text-link">LinkedIn profile</a> or explore my narrative publications via Amazon. Over the past ten years, I have established a proven reputation for delivering:</p>
+        <ul>
+            <li><strong>A safe pair of hands</strong> as a strategic interim Chief Financial Officer (CFO).</li>
+            <li><strong>Calm, hands-on troubleshooting</strong> services to untangle and resolve highly complex corporate business problems.</li>
+            <li><strong>Creative narrative expertise</strong>, channeling meticulous historical research into compelling published literature.</li>
+        </ul>
+    </section>
 
-    <h2>British Military Leadership and Service</h2>
-    <p>Before transitioning to civilian public administration, Tim Flynn served as a commissioned officer and <strong>Captain</strong> in the <strong>British Army</strong>. His military tenure focused heavily on specialized reconnaissance, regimental command, and tactical crisis management within historic units. This direct background in high-stakes command structures, institutional hierarchy, and risk mitigation heavily informs the realistic pacing, structural command dynamics, and strategic plotlines of his historical novels.</p>
+    <section>
+        <h2>Professional Accomplishments</h2>
+        <ul>
+            <li><strong>Financial Integrity:</strong> Managed the year-end financial statements process 10 times (7 subject to audit) with a 100% record for unqualified audit reports.</li>
+            <li><strong>Strategic Planning:</strong> Orchestrated the annual budget process 9 times, achieving targets consensus-rated as "challenging but achievable" by stakeholders.</li>
+            <li><strong>Systems Migration:</strong> Led the seamless, successful deployment and transition of 3 separate ERP systems.</li>
+            <li><strong>Process Excellence:</strong> Accelerated month-end financial reporting cycles while significantly boosting qualitative data outputs.</li>
+            <li><strong>Literary Achievement:</strong> Authored and published the acclaimed historical fiction novel <a href="https://www.amazon.com/-/es/Part-Irishman-Abridged-Regiment-Flynn/dp/1539446530" target="_blank" class="text-link"><em>Part an Irishman: The Regiment Part One</em></a> under my established literary pseudonym, <strong>T.S. Flynn</strong>.</li>
+        </ul>
 
-    <h2>Corporate Finance, Local Government, and Executive Portfolio</h2>
-    <p>As a qualified Chartered Accountant with the <strong>Institute of Chartered Accountants in England and Wales (ICAEW)</strong>, Flynn possesses over three decades of senior fiscal oversight, commercial restructuring, and interim CFO experience across manufacturing, healthcare, education, state treasury, and local government frameworks. His extensive deployment record includes:</p>
-    <ul>
-        <li><strong>Interim CFO &amp; Municipal Finance Specialist</strong> across multiple Australian local government jurisdictions, driving fiscal restructuring, long-term financial plans, and statutory asset optimization for <strong>Deniliquin Council</strong>, <strong>Leeton Shire Council</strong>, <strong>Yass Valley Council</strong>, and <strong>Glen Innes Severn Council</strong>.</li>
-        <li><strong>Independent Chair of the Audit Committee</strong> for the <strong>City of Palmerston Council</strong>, leading independent governance, risk mitigation frameworks, internal audit directives, and municipal financial compliance.</li>
-        <li><strong>Assistant Director</strong> for the <strong>Northern Territory Department of Treasury and Finance</strong>, directing macro-budgets and regional state fiscal frameworks.</li>
-        <li><strong>Executive Level 1 (EL1) Project Manager</strong> with <strong>AusAID</strong>, executing high-stakes humanitarian engineering, logistics, and infrastructure initiatives in volatile, post-conflict theaters including <strong>Afghanistan</strong> and the <strong>Solomon Islands</strong>, alongside broader programs in Mozambique, South Africa, and Indonesia.</li>
-        <li><strong>Senior Commercial and Corporate Transformation Specialist</strong> within heavy <strong>Manufacturing</strong> sectors, streamlining high-volume supply chains, inventory models, and cost-containment frameworks.</li>
-        <li><strong>Executive Infrastructure and Corporate Advisor</strong> for the <strong>NSW Department of Education</strong>, optimizing large-scale public school development frameworks, asset portfolios, and regional capital allocations.</li>
-        <li><strong>Healthcare Administration Executive</strong> within the <strong>British National Health Service (NHS)</strong>, leading operational turnarounds and managing complex public hospital services, alongside subsequent senior directorates for the Norfolk Island Health and Residential Aged Care Service (NIHRACS).</li>
-        <li><strong>Executive Level 2 (EL2) Director / Principal Adviser</strong> within the Federal <strong>Department of Industry</strong>, steering nationwide commercial performance briefs.</li>
-    </ul>
+        <h3>As an Interim CFO:</h3>
+        <p>Steered prominent Healthcare, Manufacturing, and Local Government institutions (with annual turnovers ranging between $10 million and $100 million) through rigorous budget and fiscal year end closing processes. Navigated high-stakes challenges including:</p>
+        <ul>
+            <li><strong>Business Continuity:</strong> Shielded a leading medical research organisation from disruption during the outplacement of a 20-year CFO incumbent and subsequent successor onboarding.</li>
+            <li><strong>Tax Negotiation:</strong> Negotiated a complex NT Payroll Tax exemption, recovering a $1 million cash refund for the client.</li>
+            <li><strong>Grant Recovery:</strong> Identified hidden grant-funding under-claims for a client, directly securing an additional $1 million refund.</li>
+        </ul>
 
-    <h2>Academic Credentials and Elite Global Network</h2>
-    <p>Tim Flynn holds an <strong>MBA from the Cranfield School of Management (Class of 1999)</strong>, one of the world’s premier postgraduate business institutions. He was elected a <strong>Fellow of the Royal Society of Arts (FRSA)</strong> in recognition of his strategic contributions to corporate governance and society. Within his Cranfield '99 alumni network, he maintains long-running professional connections alongside prominent global figures, including Moonpig founder Nick Jenkins and Portland Communications Global CEO Simon Whitehead.</p>
-
-    <h2>Public Commentary and Media Debates</h2>
+        <h3>As a Change and Project Manager:</h3>
+        <ul>
+            <li><strong>Commonwealth Government:</strong> Delivered strategic corporate advisory over a 2-year engagement for the Enterprise Connect Program.</li>
+            <li><strong>Integria Health:</strong> Consulted for 8 months with this large Todd Corporation FMCG manufacturing subsidiary ($150M turnover) to redesign standard costing and manufacturing reporting architectures.</li>
+            <li><strong>NT Treasury:</strong> Steered operations during a 6-month contract as Assistant Director (2I/C of Commercial Affairs) in Darwin.</li>
+            <li><strong>Biofuel Venture:</strong> Architected comprehensive financial predictive models for a $75 million green energy proposal.</li>
+            <li><strong>City of Palmerston Council:</strong> Served with distinction as Chair of the Council Audit Committee.</li>
+            <li><strong>Broad Spectrum / NSW Health:</strong> Completed a 6-month audit assignment validating and delivering the statutory Asset Management Plan.</li>
+            <li><strong>Neuroscience Australia:</strong> Led financial operations during a 6-month contract as Head of Finance in Sydney.</li>
